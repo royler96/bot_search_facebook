@@ -7,3 +7,12 @@ pip3 install matplotlib
 pip3 freeze > requirements.txt
 
 pip3 install -r requirements.txt
+---------
+docker commands
+
+docker-compose build
+docker-compose up -d
+docker-compose ps
+docker-compose exec app-csv bash
+
+docker-compose down
